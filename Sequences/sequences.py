@@ -70,3 +70,36 @@ print(t[0])
 print(t[1:3])  # Slicing a tuple
 print(t.index(3))  # Finding the index of an element in a tuple
 print(t.count(1))  # Counting occurrences of an element in a tuple
+
+
+
+# Dictionaries are not sequences but can be iterated over.
+# Keys are all those things which are immutable, like strings, numbers, or tuples.
+
+d = {'a': 1, 'b': 2, 'c': [1, 2, 3]}
+for key in d:
+    print(key, ":", d[key])  
+
+d['d'] = "farhan"
+
+print(d.items()) #Returns a view object that displays a list of a dictionary's key-value tuple pairs.
+
+
+for k, v in d.items():
+    print(k, ":", v)  # Iterating over key-value pairs in a dictionary  
+
+
+
+
+num_names = {
+    1: "one",
+    2: "two",
+    3: "three",
+    4: "four",
+    5: "five",
+    6: "six",
+    20: "twenty",
+    30: "thirty",
+}
+
+print(num_names[20])
