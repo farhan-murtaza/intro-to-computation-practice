@@ -108,4 +108,5 @@ def genPowerset(L):
         powerset.append(subset)
     return powerset
 
-print(genPowerset([1, 2, 3]))
+# print(genPowerset([1, 2, 3]))
+
