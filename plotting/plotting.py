@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import pylab
 
 
 X = np.linspace(0, 10, 40)
@@ -88,3 +89,8 @@ plt.show()
 
 # it save pic in the same directory
 plt.savefig("plot.png")
+
+pylab.figure(1) #create figure 1
+pylab.plot([1,2,3,4], [1,7,3,5]) #draw on figure 1
+pylab.show() #show figure on screen
+pylab.savefig('pylab.png')
