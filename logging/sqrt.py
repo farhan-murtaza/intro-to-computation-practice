@@ -39,7 +39,7 @@ print(sqrt(36))
 # Alternative 
 
 import  logging
-logging.basicConfig(level=logging.DEBUG)            # DEBUG, INFO, WARNING. ERROR
+logging.basicConfig(level=logging.DEBUG, filename='sqrt.log')            # DEBUG, INFO, WARNING. ERROR
 
 def sqrt(x, guess = 1.0):
     if x < 0:

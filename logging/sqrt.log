@@ -1,0 +1,22 @@
+INFO:root:Find sqrt of 36 starting with guess 1.0
+DEBUG:root:Checking if 1.0 is a good enough guess.
+DEBUG:root:Guess isn't good enough. Improve ...
+DEBUG:root:Improved guess: to 18.5
+INFO:root:Find sqrt of 36 starting with guess 18.5
+DEBUG:root:Checking if 18.5 is a good enough guess.
+DEBUG:root:Guess isn't good enough. Improve ...
+DEBUG:root:Improved guess: to 10.222972972972974
+INFO:root:Find sqrt of 36 starting with guess 10.222972972972974
+DEBUG:root:Checking if 10.222972972972974 is a good enough guess.
+DEBUG:root:Guess isn't good enough. Improve ...
+DEBUG:root:Improved guess: to 6.872226737643129
+INFO:root:Find sqrt of 36 starting with guess 6.872226737643129
+DEBUG:root:Checking if 6.872226737643129 is a good enough guess.
+DEBUG:root:Guess isn't good enough. Improve ...
+DEBUG:root:Improved guess: to 6.055351744849479
+INFO:root:Find sqrt of 36 starting with guess 6.055351744849479
+DEBUG:root:Checking if 6.055351744849479 is a good enough guess.
+DEBUG:root:Guess isn't good enough. Improve ...
+DEBUG:root:Improved guess: to 6.0002529841194185
+INFO:root:Find sqrt of 36 starting with guess 6.0002529841194185
+DEBUG:root:Checking if 6.0002529841194185 is a good enough guess.

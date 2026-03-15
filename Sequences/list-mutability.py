@@ -55,3 +55,26 @@ students_3[0][0] = 'Student 1 changed again'
 print(students_3)
 print('-------------')
 print(students)
+
+
+
+# Passing lists as arguments 
+
+def change_var(x):
+    x = x + 1
+
+def change_list(lst):
+    lst.append(24)
+
+x = 25
+change_var(x)
+print(x)  # our global x remains the same
+
+print(s2)
+change_list(s2)
+print(s2)   # but the list is affected!
+
+
+# Now this should be understanable.
+
+# And that's why we have tuples as immutable .. so that called functions are guaranted to not change them. 
